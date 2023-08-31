@@ -1,0 +1,47 @@
+*{
+   background-color: bisque;
+    padding: 0;
+}
+div button{
+   font-size: 30px;
+    width: 69px;
+    height: 71px;
+    border : 2px solid blue;
+    background-color: aquamarine;
+    
+}
+#border{
+    margin-left:40%;
+}
+.row{
+    display: flex;
+}
+#result{
+    background-color: rgb(174, 178, 181);
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+    width: 20%;
+}
+h1{
+    text-align: center;
+}
+#btn{
+    width: 89px;
+    margin-top: 20px;
+    padding: 7px 14px;
+
+    background-color: rgb(47, 194, 145);
+    border-radius: 10px;
+}
+@media (max-width: 800px) {
+    #border{
+        margin: 13% 6% 0%;
+        width: 90%;
+        height: 73%;
+    }
+    div button{
+       
+        width: 30%;
+    }
+}
